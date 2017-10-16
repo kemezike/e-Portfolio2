@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Digital Portfolio - OJT2</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/css/bulma.css">
+	<link rel="stylesheet" href="assets/css/custom.css">
+
+</head>
+<body>
+	<div id="app">
+		<nav class="navbar" id="nav">
+			<div class="navbar-brand">
+				<a class="navbar-item" href="#">
+					<img src="http://bulma.io/images/bulma-logo.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28">
+				</a>
+
+				<div class="navbar-burger burger" data-target="navMenuTransparentExample" v-on:click="showNav = !showNav" v-bind:class="{ 'is-active' : showNav }">
+					<span></span>
+					<span></span>
+					<span></span>
+
+				</div>
+
+			</div>
+
+			<div id="navMenuTransparentExample" class="navbar-menu" v-bind:class="{ 'is-active' : showNav }"> 
+				<div class="navbar-start">
+
+					<a data-scrol class="navbar-item "  href="#one">
+						Digital Portfolio
+					</a>
+					<a data-scrol class="navbar-item " href="#two">
+						The Company
+					</a>
+					<a data-scrol class="navbar-item " href="#three">
+						Department Assignment
+					</a>
+					<a data-scrol class="navbar-item " href="#four">
+						Summary of Weekly Activities
+					</a>
+					<a data-scrol class="navbar-item " href="#five">
+						Company Problems
+					</a>
+					<a data-scrol class="navbar-item " href="#six">
+						OJT-Trainee Concerns
+					</a>
+					<a data-scrol class="navbar-item " href="#seven">
+						Documentation
+					</a>
+				</div>
+			</div>
+		</nav>
+
+		<!-- one -->
+		<section class="hero is-primary is-medium" id="one">
+			<div class="hero-body">
+				<div class="container">
+					<div class="columns">
+						<div class="column is-3 is-hidden-mobile">
+							<figure class="image" style="height: 200px;width: 250px	">
+								<img src="assets/img/profile.jpeg">
+							</figure>
+						</div>
+						<div class="column">
+							<h1 class="title" style="padding-top: 10px">
+								Kryce Earl A. Martus
+							</h1>
+							<h2 class="subtitle">
+								Bachelor of Science in Information Technology<br>
+								College of Computer Studies<br>
+								Cebu Institute of Technology - University
+							</h2>
+							<h3>A.Y. 2017-2018 <br> 1st Semester</h3>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- two -->
+		<section class="section" id="two">
+			<div class="container">
+				<h1 class="title">
+					The Company
+				</h1>
+
+				<div class="content">
+					<h2>History</h2>
+					<p>Wonder how coreDev Solutions, Incorporated initiated its name in the Accounting and IT world?</p>
+					<p>Twenty Five years ago, the very first version of our accounting software was developed and it was named as "iAccs" (Integrated Accounting System) in which it started as a DOS-based application. It has greatly helped Cooperatives and Rural Banks automate their Credit and Savings operation while enjoying integration into the Accounting System.</p>
+					<p>The rapid advancement in technology and the ever growing needs of our clients inspired us to further develop the system. In the year 2013, we launched the newest version of the system, we called it "iAccs 2013". We have evolved from being just a software provider into a service-oriented solutions provider. Thus the need to serve our clients and our aims to drastically broaden our horizons, brought the birth of coreDev, Solutions Incorported that serves its clients 24/7.</p>
+					<p>We offer every solution and provide the best service to our clients nationwide. We aim for customer satisfaction and innovation in developing safe, reliable and stable services to our clients, making every client as our only priority. CoreDev Solutions Incorporated is not just specialized in Accounting System, we also offer customized software development, hardware, network infrastructure deployment, and technical consultancy.</p>
+				</div>
+				<div class="content">
+					<h2>Organizational Structure</h2>
+					<figure class="image">
+						<img src="organizationalChart.jpg">
+					</figure>
+				</div>
+			</div>
+		</section>
+
+		<!-- three -->
+		<section class="section" id="three">
+			<div class="container">
+				<h1 class="title">
+					Department Assignment
+				</h1>
+				<div class="content">
+					<h2>Description and Scope of Responsibility</h2>
+					<p>The department we trainees are assigned is the Research and Development Department. We are given projects to complete during our training period in the company. The project assigned to me is the Itinerary Management System, which can be used by the company to make the itinerary process more easy and simple.
+						<figure>
+							<img src="assets/img/itinerary1.jpg"  style="height: 250px">
+							<figcaption>
+								The Itinerary Management System
+							</figcaption>
+						</figure>
+					</div>
+				</div>
+			</section>
+		</div>	
+
+		<!-- four -->
+		<section class="section" id="four">
+			<div class="container">
+				<h1 class="title">
+					Summary of Weekly Activities
+				</h1>
+
+				<div class="content">
+					<div class="columns">
+						<div class="column is-3">
+							<figure>
+								<img src="http://bulma.io/images/placeholders/256x256.png">
+								<figcaption>
+									Figure 1: Some beautiful placeholders
+								</figcaption>
+							</figure>
+						</div>
+						<div class="column">
+							<h2>Review and Research</h2>
+							<p>
+								The first phase of the project was to learn and review programming languages and frameworks, such as PHP and Laravel. By doing so, the development of the web system went smoothly. The company's programmers also guided us trainees to what to learn by teaching us personally and providing us learning materials, such as video tutorials and references.
+							</p>
+							<p>I was able to learn more about web development and applied them during my training period.</p>
+						</div>
+					</div>
+				</div>
+				<div class="content">
+					<div class="columns">
+						<div class="column is-9">
+							<h2>Web Development</h2>
+							<blockquote>
+								A Web Developer is responsible for designing, coding and modifying websites, from layout to function and according to a client's specifications. Strive to create visually appealing sites that feature user-friendly design and clear navigation.
+							</blockquote>
+							<p>Most weeks after the review and research went to Web Development, where we programmed the modules based on the companies requirements for the system. By using frameworks, the speed of development of the system, from the website UI to the functions and methods, was rapid.</p>
+						</div>
+						<div class="column">
+							<figure>
+								<img src="http://bulma.io/images/placeholders/256x256.png">
+								<figcaption>
+									Figure 1: Some beautiful placeholders
+								</figcaption>
+							</figure>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- five -->
+		<section class="section" id="five">
+			<div class="container">
+				<h1 class="title">
+					Company Problems
+				</h1>
+				<div class="content">
+					<h2>As perceived by the Company	</h2>
+					<p>The company is always in need of new software programmers and implementers. And as of the writing of this portfolio, the hiring of the positions are still open.</p>
+				</div>
+				<div class="content">
+					<h2>As perceived by the Trainee</h2>
+					<p>Fortunately, I have no problems by the company itself. I was blessed to be part of the Research and Development Department, where I was given a chance to learn new things and realize that in this industry, being a lifelong learner is indeed a plus.</p>
+				</div>
+				<div class="content">
+					<h2>Findings and Analysis</h2>
+					<p>During my training period, the employees are all approachable and is ready to answer any question and problems you have encountered. I would totally recommend anyone who is willing to learn and discover new things to apply for OJT position at coreDev.</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- six -->
+		<section class="section" id="six">
+			<div class="container">
+				<h1 class="title">
+					OJT-Trainee Concerns
+				</h1>
+
+				<div class="content">
+					<h2>Skills and Programming Languages Improved</h2>
+					<dl>
+						<dt><i class="fa fa-html5"></i> HTML</dt>
+						<dd>Aside from the basics, I learned greater and deeper understanding on HTML.</dd>
+						<dt><i class="fa fa-css3"></i> CSS</dt>
+						<dd>Overcomed CSS, before I was always been intimidated by it.</dd>
+						<dt><i class="fa fa-git"></i> Git</dt>
+						<dd>Improved on proper usage of commits.</dd>
+						<dt><i class="fa fa-cogs"></i> Web Frameworks</dt>
+						<dd>I now appreciate how powerful and useful frameworks are when it comes to web development.</dd>
+					</dl>
+				</div>
+
+				<div class="content">
+					<h2>Ways to Improve the OJT Program</h2>
+					<p>In my opinion, the list of companies that an OJT-Trainee can apply to must have an addition info about what the company TRULY wants from the trainee. The info can range from 'is the applicant willing to learn and can work with less supervision' to 'is willing to do what the higher-ups ask you, no matter what the task'.</p>
+				</div>
+			</div>
+		</section>
+
+
+		<!-- for smooth navigation scroll -->
+		<script src="assets/js/smooth-scroll.js"></script>
+		<script>
+			var scroll = new SmoothScroll('a[href*="#"]');
+		</script>
+
+		<!-- mobile navbar -->
+		<script src="https://unpkg.com/vue"></script>
+		<script>
+			new Vue({
+				el: '#app',
+				data: {
+					showNav: false
+				}
+			});
+		</script>
+
+		<!-- <script src="node_modules\vue-scrollspy\index.js"></script>
+		<script>
+			var Vue = require('vue');
+			var Scrollspy = require('vue-scrollspy');
+			Vue.use(Scrollspy)
+		</script> -->
+	</body>
+	</html>
